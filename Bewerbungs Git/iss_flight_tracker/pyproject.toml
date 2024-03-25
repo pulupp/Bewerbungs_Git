@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "iss-flighttracker"
+version = "0.1.0"
+description = "Light-weight user interface application to track the flight path of the international space station -- build in Python"
+authors = ["MonkeySoup318 <82089859+MonkeySoup318@users.noreply.github.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.0"
+tk = "^0.1.0"
+numpy = "^1.26.3"
+requests = "^2.31.0"
+SQLAlchemy = "^2.0.25"
+pandas = "^2.1.4"
+mypy = "^1.8.0"
+pillow = "^10.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
